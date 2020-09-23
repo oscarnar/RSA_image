@@ -6,7 +6,7 @@ En este proyecto se implemetó el algoritmo RSA para imagenes, se cifra y muestr
 Se usó dos librerias principales:
 - [NTL/ZZ](https://www.shoup.net/ntl) la cual es una libreria para el manejo de numeros gigantes que C++ no maneja por defecto. Para su instalacion debemos seguir su [guia](https://www.shoup.net/ntl/doc/tour-unix.html).
 - [Cimg](http://cimg.eu/) es una libreria para la manipulacion sencillo y portable de imagenes en C++, en este repositorio ya se incluye por lo que su descarga no es necesaria pero aqui le dejamos el [link de descarga](http://cimg.eu/download.shtml).
-- 
+
 ## Compilacion en Linux
 Dentro de la carpeta de este reposiutorio ejecutar:
 ```bash
@@ -18,7 +18,7 @@ g++ -o capt probando.cpp -O2 -L/usr/X11R6/lib -lm -lpthread -lX11 -std=c++11 -pt
 ![antes](assets/antes.png)
 ### Imagen cifrada
 ![cifrado](assets/cifrado.bmp)
-### Imagen decifrada
+### Imagen descifrada
 ![descifrado](assets/descifrado.png)
 
 ## Uso de Git y GitHub
